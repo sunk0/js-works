@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sunko industries</title>
+    <link rel='icon' href='./images/favicon.jpg' type='image/x-icon'/ >
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+</head>
+<body>
+  <header>
+      <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wrapper black">
+              <a href="home.html" class="brand-logo">S.industries</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>  
+              </ul>
+            </div>
+          </nav>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+  </header>
+  <main>
+    <h1>WE SIMPLY SELL WEAPONS SEE CATALOGUE</h1>
+    <img src="./images/ak-background.jpg" alt="AK">
+  </main>
+  <footer class="page-footer black">
+      <div class="footer-copyright">
+        © 2019 Sunko Industries
+        <div class="right" id="rights">All rights reserved</div>
+      </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.sidenav').sidenav();
+});
+</script>
+</body>
+</html>

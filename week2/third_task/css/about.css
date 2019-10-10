@@ -1,0 +1,19 @@
+body{
+    font-family: Cambria;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    text-align: center;
+    flex: 1 0 auto;
+}
+p{
+    width: 100%;
+    font-size: 30px;
+    color: white;
+}
+main > img{
+    width: 100%;
+}
+
